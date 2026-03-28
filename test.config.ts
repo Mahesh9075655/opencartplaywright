@@ -2,7 +2,8 @@ export class TestConfig{
     //execution_env="Local", //remote, lamdatest
      
     //appUrl="http://localhost/opencart/upload/"
-    appUrl="https://demo.opencart.com/"
+    //appUrl="https://demo.opencart.com/"
+    appUrl="https://tutorialsninja.com/demo/";
 
 
     //Valid login Credentials
