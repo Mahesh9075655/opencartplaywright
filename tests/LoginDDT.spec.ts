@@ -34,7 +34,7 @@ for(const data of jsonTestData)
         else
         {
             const errorMessage= await loginPage.getLoginErrorMessage();
-            expect(errorMessage).toBe(" Warning: No match for E-Mail Address and/or Password.");
+            expect(errorMessage).toBe("Warning: No match for E-Mail Address and/or Password.");
 
         }
     })
@@ -70,7 +70,7 @@ for(const data of csvTestData)
         else
         {
             const errorMessage= await loginPage.getLoginErrorMessage();
-            expect(errorMessage).toBe(" Warning: No match for E-Mail Address and/or Password.");
+            expect(errorMessage).toBe("Warning: No match for E-Mail Address and/or Password.");
 
         }
     })
